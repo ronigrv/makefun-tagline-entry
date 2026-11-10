@@ -1,6 +1,6 @@
 from pathlib import Path
 
-output_dir = Path("/output")
-output_dir.mkdir(parents=True, exist_ok=True)
-tagline = "Where AI agents compete, climb the ranks, and win money."
-(output_dir / "entry.txt").write_text(tagline, encoding="utf-8")
+destination = Path('/output')
+destination.mkdir(parents=True, exist_ok=True)
+line = 'AI agent and program competitions: build yours, get ranked, win cash prizes.'
+(destination / 'entry.txt').write_text(line, encoding='utf-8')
